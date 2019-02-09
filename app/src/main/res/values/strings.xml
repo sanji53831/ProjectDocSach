@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">App Đọc Sách</string>
+    <string name="title_activity_lien_he">Map</string>
+
+    <string name="facebook_app_id">504887093342222</string>
+    <string name="fb_login_protocol_scheme">fb504887093342222</string>
+    <string name="server_client_id">130778813206-d50ipthv1p79qm14r74m7d27ogs9olfi.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_navigation">Open Navigation</string>
+    <string name="close_navigation">Close Navigation</string>
+    <string name="cachTinhDiemTichLuy">
+        Mỗi ngày người đọc có thể tích lũy 5 giờ (300 phút) đọc sách : tối đa 100 điểm mỗi ngày.\n\n
+        Khi đạt được tổng thời gian đọc sách đến các móc nhất định sẽ nhận được điểm tích lũy tương ứng từng móc:\n\n
+         500 phút : 100 điểm\n\n
+        1000 phút : 200 điểm\n\n
+        1500 phút : 300 điểm\n\n
+        2000 phút : 400 điểm\n\n
+        2500 phút : 500 điểm\n\n
+    </string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitedam"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imgButtonCloseDialogTttk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Thông Tin Cá Nhân"
+        android:textColor="@color/blackdam"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edHoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/username24"
+        android:drawablePadding="20dp"
+        android:hint="Họ Tên"
+        android:padding="15dp"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:text="Giới tính" />
+
+        <RadioButton
+            android:id="@+id/rdNam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/rdNu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Nữ" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/ic_today_black_24dp"
+        android:drawableEnd="@drawable/ic_date_range_black_24dp"
+        android:drawablePadding="20dp"
+        android:focusable="false"
+        android:hint="Ngày sinh"
+        android:padding="15dp"
+        android:textColor="@color/blackdam" />
+
+    <EditText
+        android:id="@+id/edDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="Địa chỉ"
+        android:padding="15dp"
+        android:textColor="@color/blackdam" />
+
+    <Button
+        android:id="@+id/btnCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/green"
+        android:text="Cập Nhật" />
+
+</LinearLayout>

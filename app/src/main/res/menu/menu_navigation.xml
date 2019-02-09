@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/helloUser"
+        android:enabled="false"
+        android:title="Xin chào"></item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dangNhap"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp"
+            android:title="Đăng nhập"></item>
+        <item
+            android:id="@+id/thongTinTaiKhoan"
+            android:icon="@drawable/user50"
+            android:title="Thông tin tài khoản"></item>
+        <item
+            android:id="@+id/viDiemTichLuy"
+            android:icon="@drawable/wallet50"
+            android:title="Ví điểm tích lũy"></item>
+        <item
+            android:id="@+id/napDiemTichLuy"
+            android:icon="@drawable/coin50"
+            android:title="Nạp điểm tích lũy"></item>
+        <item
+            android:id="@+id/tuSach"
+            android:icon="@drawable/bookshelf50"
+            android:title="Tủ sách"></item>
+        <item
+            android:id="@+id/gopY"
+            android:icon="@drawable/email50"
+            android:title="Góp ý"></item>
+        <item
+            android:id="@+id/lienHe"
+            android:icon="@android:drawable/stat_sys_phone_call_forward"
+            android:title="Liên hệ"></item>
+        <item
+            android:id="@+id/thoatTaiKhoan"
+            android:icon="@drawable/logout50"
+            android:title="Thoát Tài Khoản"></item>
+    </group>
+</menu>

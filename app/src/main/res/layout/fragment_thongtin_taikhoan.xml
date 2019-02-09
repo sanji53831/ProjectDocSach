@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.thongtintaikhoan.fragment.fragment_thongtin_taikhoan">
+
+    <EditText
+        android:id="@+id/edTttkThongTinTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/username24"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawablePadding="15dp"
+        android:focusable="false"
+        android:hint="Thông tin cá nhân"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/graydam" />
+
+    <EditText
+        android:id="@+id/edMkThongTinTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/password24"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawablePadding="15dp"
+        android:focusable="false"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:text="1111111"
+        android:textColor="@color/graydam" />
+
+    <EditText
+        android:id="@+id/edSdtThongTinTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawablePadding="15dp"
+        android:focusable="false"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/graydam" />
+
+    <EditText
+        android:id="@+id/edEmailThongTinTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/email24"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawablePadding="15dp"
+        android:focusable="false"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/graydam" />
+
+</LinearLayout>

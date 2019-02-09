@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitedam"
+    tools:context=".view.timkim.TimKim">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/seachrSach"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:iconifiedByDefault="false"
+        app:queryHint="Nhập tên sách muốn tìm kím"></android.support.v7.widget.SearchView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTimKim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="66dp"
+        android:padding="10dp"></android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvThongBao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Không tìm thấy sách bạn yêu cầu!"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+</FrameLayout>

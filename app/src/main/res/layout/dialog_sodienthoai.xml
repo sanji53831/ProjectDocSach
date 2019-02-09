@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitedam"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imgButtonCloseDialogSoDienThoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Đổi Số Điện Thoại"
+        android:textColor="@color/blackdam"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/edSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="Số điện thoại"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/blackdam" />
+
+
+    <Button
+        android:id="@+id/btnCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/green"
+        android:text="Cập Nhật" />
+
+</LinearLayout>
