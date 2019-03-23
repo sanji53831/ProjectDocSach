@@ -59,7 +59,8 @@ import com.nguyenminhtri.projectdocsach.viewmodel.main.ViewModelMain;
 
 
 public class MainActivity extends AppCompatActivity {
-
+//
+    //
     KhachHang user;
     String displayName;
 
@@ -88,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //
+        //
         super.onCreate(savedInstanceState);
         presenterMain = new PresenterMain();
         FacebookSdk.sdkInitialize(getApplicationContext());
